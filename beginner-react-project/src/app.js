@@ -16,7 +16,7 @@ const differentProducts = [
         pDescription: 'Labore enim aliqua amet laboris anim sunt officia nisi labore elit incididunt.',
         isAvailable:false,
         image: '/Images/cottage-cheese.png',
-        price:200
+        price:99
     },
     {
         pId:3,
