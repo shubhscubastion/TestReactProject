@@ -16,9 +16,9 @@ function ProductDetails(props){
         return(
             <div className="d-flex align-items-center justify-content-start mt-1">
                                     <h6 className="font-weight-bold my-2" style={{'margin-right':30}}>${props.price}</h6>
-                                    <Button>+</Button>
-                                    <span style={style}>{FormattedCountofProduct()}</span>
                                     <Button>-</Button>
+                                    <span style={style}>{FormattedCountofProduct()}</span>
+                                    <Button>+</Button>
                                     <span className={badgeClass}>{props.available ? 'Available':'Unavailable'}</span>
                                 </div>
         );
