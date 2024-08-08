@@ -30,31 +30,32 @@ const differentProducts = [
 function App(){
     return( 
         <div className='row' style={{'margin-bottom':20}}>
-        <Products 
-            id={differentProducts[0].pId}
-            name={differentProducts[0].pName}
-            description={differentProducts[0].pDescription}
-            available={differentProducts[0].isAvailable}
-            image={differentProducts[0].image}
-            price={differentProducts[0].price}
-        ></Products>
-         <Products 
-            id={differentProducts[1].pId}
-            name={differentProducts[1].pName}
-            description={differentProducts[1].pDescription}
-            available={differentProducts[1].isAvailable}
-            image={differentProducts[1].image}
-            price={differentProducts[1].price}
-        ></Products> 
-            <Products 
-                    id={differentProducts[2].pId}
-                    name={differentProducts[2].pName}
-                    description={differentProducts[2].pDescription}
-                    available={differentProducts[2].isAvailable}
-                    image={differentProducts[2].image}
-                    price={differentProducts[2].price}>
-            </Products> 
-        
+            <ul className="list-group shadow">
+                <Products 
+                    id={differentProducts[0].pId}
+                    name={differentProducts[0].pName}
+                    description={differentProducts[0].pDescription}
+                    available={differentProducts[0].isAvailable}
+                    image={differentProducts[0].image}
+                    price={differentProducts[0].price}
+                ></Products>
+                <Products 
+                    id={differentProducts[1].pId}
+                    name={differentProducts[1].pName}
+                    description={differentProducts[1].pDescription}
+                    available={differentProducts[1].isAvailable}
+                    image={differentProducts[1].image}
+                    price={differentProducts[1].price}
+                ></Products> 
+                    <Products 
+                            id={differentProducts[2].pId}
+                            name={differentProducts[2].pName}
+                            description={differentProducts[2].pDescription}
+                            available={differentProducts[2].isAvailable}
+                            image={differentProducts[2].image}
+                            price={differentProducts[2].price}>
+                    </Products> 
+            </ul>
         </div>
     );
 }
