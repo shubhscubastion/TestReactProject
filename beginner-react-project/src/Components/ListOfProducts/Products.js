@@ -15,7 +15,7 @@ function Products(props){
                         <img src={props.image} alt ="Generic placeholder" width="100" className="ml-lg-5 order-1 order-lg-2" style={{marginLeft:'auto'}}/>
                     </div>
                 </li>
-            </div>    
+            </div>     
     );
 }
 
